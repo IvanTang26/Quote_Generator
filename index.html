@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Quote Machine</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+	<meta charset="UTF-8">
+	<title>Quotey</title>
+	<!-- INCLUDED STYLESHEETS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+	<!-- FONTS -->
+	<link href='https://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	
+	<header>
+		<!-- LOGO -->
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6">
+					<div class="logo secondary_border">
+						Quotey
+					</div>
+				</div>
+				<div class="col-xs-6 pull-right">
+					<button class="secondary_border" id="randomBTN"><i class="fa fa-random"></i>
+Random Quote</button>
+				</div>
+			</div>
+		</div>
+		
+		<!-- END OF LOGO -->
+		
+		<!-- HEADING WRAPPER -->
+		<div id="heading_wrapper">
+			<!-- CENTER CONTAINER -->
+			<div class="container">
+				<div class="row">
+
+					<!-- HEADING COLUMN -->
+					<div class="col-xs-7" id="heading_column">
+						<h1 id="heading"></h1>
+					</div>
+					<!-- END OF HEADING COLUMN -->
+					
+					<!-- SEARCH COLUMN -->
+					<div class="col-xs-5" id="query_form_wrapper">
+						<!-- START OF SEARCH -->
+						
+						<form action="" role="form" class="pull-right form-inline" id="query_form">
+
+							<div id="search_type_radios">
+								<div class="form-group">
+									<label for="authorRADIO">Author</label>
+									<input type="radio" name="searchtype" value="author" id="authorRADIO" checked>
+								</div>
+
+								<div class="form-group">
+									<label for="subjectRADIO">Search</label>
+									<input type="radio" name="searchtype" value="search" id="subjectRADIO">
+								</div>
+							</div>
+							
+							<div id="input_wrapper">
+								<div class="form-group">
+									<label for="query_text" class="sr-only">Name Of Person</label>
+									<input type="text" class="form-control grow" id="query_text" placeholder="search for a person">
+								</div>
+							
+								<div class="form-group">
+									<input type="submit" class="form-control" id="search_person_btn" value="Find Quotes">
+								</div>
+							</div>
+							
+						</form>
+						<!-- END OF SEARCH -->
+					</div>
+					<!-- END OF SEARCH COLUMN -->
+				</div>
+				<!-- END OF ROW -->
+			</div>
+			<!-- END OF CENTER CONTAINER -->
+		</div>
+		<!-- END OF HEADING WRAPPER -->
+	
+
+	</header>
+
+	<main class="container">
+		
+	</main>
+	
+	<script src="js/main.js"></script>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
